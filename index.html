@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Octopus Fixer™</title>
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);
+t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1327465096016386');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1327465096016386&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel -->
+
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,sans-serif}
+body{background:#696969;display:flex;justify-content:center}
+.page{width:min(100vw,877px);min-height:100vh;position:relative;overflow:hidden;
+background:#696969 url("assets/background.jpg") center top/cover no-repeat}
+.page:before{content:"";position:absolute;inset:0;background:rgba(55,55,55,.34);
+backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px)}
+.content{position:relative;z-index:2;min-height:100vh;display:flex;flex-direction:column;
+align-items:center;text-align:center;padding:345px 24px 38px;color:#fff}
+.title{margin:0;font-size:clamp(38px,6vw,60px);font-weight:700;white-space:nowrap;
+text-shadow:0 2px 3px #0004}.octopus{margin-right:8px}
+.subtitle{margin-top:22px;font-size:clamp(24px,3.5vw,35px)}
+.logo{width:255px;height:255px;margin-top:48px;border-radius:50%;padding:7px;
+background:#fffffff0;box-shadow:0 5px 15px #0003}
+.logo img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.ends{margin-top:34px;font-size:clamp(23px,3.3vw,32px)}
+.countdown{margin-top:16px;color:#ffd400;font-size:clamp(70px,10vw,100px);font-weight:700}
+.handle{margin-top:35px;font-size:clamp(26px,3.7vw,35px)}
+.request{margin-top:25px;font-size:clamp(21px,3vw,29px)}
+.join{width:min(700px,92vw);height:122px;margin-top:45px;border-radius:70px;
+border:7px solid white;background:#0d285e;color:white;display:flex;align-items:center;
+justify-content:center;gap:24px;font-size:clamp(27px,4vw,39px);font-weight:700;
+text-decoration:none;box-shadow:0 5px 10px #0003}
+.setup{margin-top:47px;color:#ffd400;font-size:clamp(23px,3.2vw,31px);font-weight:700}
+@media(max-width:600px){.content{padding-top:350px}.logo{width:250px;height:250px}.join{height:118px}}
+</style>
+</head>
+<body>
+<main class="page"><section class="content">
+<h1 class="title"><span class="octopus">🐙</span>Octopus Fixer™</h1>
+<div class="subtitle">Toss Match Session Prediction</div>
+<div class="logo"><img src="assets/background.jpg" alt="Octopus Fixer"></div>
+<div class="ends">FREE JOINING ENDS IN...</div>
+<div class="countdown" id="countdown">41</div>
+<div class="handle">@OCTOPUSBOSS</div>
+<div class="request">Request access — approvals are quick ↓</div>
+
+<!-- CHANGE THIS LINK TO YOUR TELEGRAM CHANNEL -->
+<a class="join" href="https://t.me/OCTOPUSBOSS" target="_blank" rel="noopener"
+onclick="fbq('track','Lead');">
+Join Telegram Channel <span>➤</span>
+</a>
+
+<div class="setup">Setup Ad Dukan</div>
+</section></main>
+<script>
+let seconds=41;
+setInterval(()=>{if(seconds>0){seconds--;document.getElementById('countdown').textContent=seconds}},1000);
+</script>
+</body>
+</html>
